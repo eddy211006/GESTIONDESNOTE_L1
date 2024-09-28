@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+   /* background-image: url('index.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 100vh;*/
+    
+     background: radial-gradient(circle at 0% 0%, #000000, #555555);
+     background-repeat: no-repeat; 
+     background-position: center;
+     height: 100vh;
+     background-size: cover;
+
+}
+
+h1, h2, h3, h4 {
+    color: #ffffff;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+.consulter{
+
+    
+        width: 70%; /* Spécifie la largeur de l'élément */
+        margin: 0 auto; /* Le centre horizontal est obtenu par auto sur le margin gauche/droite */
+        margin-top: 3%;
+    
+    
+}
+.search_name{
+    width: 300px;
+    height: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.search_number{
+    width: 300px;
+    height: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button_consulter {
+    width: 100px;
+    height: 42px;
+    padding: 5px;
+    transition: transform 0.2s ease; /* Animation douce lors du hover */
+    background-color: #7ed957; /* Couleur du bouton */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    color: white; /* Couleur du texte */
+    font-size: 16px; /* Taille du texte */
+    cursor: pointer; /* Change le curseur en main */
+    margin: 20px;
+}
+
+.button_consulter:hover {
+    transform: scale(1.1); /* Agrandit le bouton de 10% lors du hover */
+}
+
+.moyenne{
+margin-left: 50px;
+}
