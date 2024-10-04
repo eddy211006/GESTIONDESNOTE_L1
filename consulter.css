@@ -221,8 +221,8 @@ tr:nth-child(even) {
 
 
 .button-gen{
-    width: 130px;
-    height: 42px;
+    width: 158px;
+    height: 41px;
     padding: 5px;
     transition: transform 0.2s ease; /* Animation douce lors du hover */
     background-color: #7ed957; /* Couleur du bouton */
@@ -232,6 +232,7 @@ tr:nth-child(even) {
     font-size: 16px; /* Taille du texte */
     cursor: pointer; /* Change le curseur en main */
     margin: 20px;
+    
 
 
 }
@@ -242,8 +243,12 @@ tr:nth-child(even) {
     background-color: #45a049;
     transform: scale(1.1);
 }
-
-
-
-
-
+.button-gen .down{
+    margin-top:-24px;
+    margin-left:37px;
+}
+.icon{
+    margin-top:3px;
+    margin-left:-97px;
+    height:23px;
+}

@@ -7,7 +7,7 @@
     <style>
         body {
             margin: 0; /* Enlève la marge par défaut du body */
-            background-color: #00000; /* Couleur de fond sombre */
+            background-color: #000000; /* Couleur de fond sombre */
         }
 
         .snip1226 {
@@ -77,18 +77,30 @@
             transform: translateY(100%); /* Déplace le texte au survol */
         }
         
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('fonts/Raleway-Thin.ttf') format('truetype'); /* Assurez-vous que le nom du fichier est correct */
+    /* Vous pouvez également ajouter d'autres formats si nécessaire */
+}
+
     </style>
 </head>
 <body>
 
-<ul class="snip1226">
-    <li class="current"><a href="index.php" data-hover="Home">Home</a></li>
+<ul class="snip1226" id="menu">
+    <li ><a href="home.php" data-hover="Accueil">Accueil</a></li>
     <li><a href="consulter.php" data-hover="Consulter par etudiant">Consulter par etudiant</a></li>
     <li><a href="consulterParCOURS.php" data-hover="Consulter par cours">Consulter par cours</a></li>
-    <li><a href="generer.php" data-hover="Generer les rapport">Generer les rapport</a></li>
-    <li><a href="add_student.php" data-hover="A propos">A propos</a></li>
-    <li><a href="#" data-hover="Contact">Contact</a></li>
-</ul>
+    <li><a href="generer.php" data-hover="Generer en PDF">Generer en PDF</a></li>
+    <li  class="current"><a href="statistique.php" data-hover="Statistique des notes">Statistique des notes</a></li>
+    <li><a href="apropos.php" data-hover="A propos">A propos</a></li>
+    <li><a href="contact.php" data-hover="Contact">Contact</a></li>
+    </ul>
+
 
 
 </body>

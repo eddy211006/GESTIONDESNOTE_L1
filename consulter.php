@@ -21,13 +21,17 @@
         h3, h4 {
             color: white; /* "Notes de l'Étudiant" et "Moyenne" en blanc */
         }
+        p{
+            color:red;
+        }
+        
     </style>
 </head>
 <body>
+<a href="home.php" alt="Logo" class="logo"><img src="logo.png" alt="Logo" class="logo"></a>
 
-<img src="logo.png" alt="Logo" class="logo">
     <!-- Fichier: navbar.php -->
-    <?php include 'navbar.php'; ?>
+    <?php include 'navconsulter.php'; ?>
 
     <h1 class="textcons">Consulter les Notes Académiques</h1>
 
@@ -86,10 +90,16 @@
 
             echo "<h4>Moyenne : $average_value</h4>";
             echo "<p class='message $message_class'>$message_text</p>";
+
+
+
+            
         } else {
-            echo "<p>Aucune note trouvée pour cet étudiant.</p>";
+            echo "<p>Aucune note trouvée pour cet étudiant.veuillez verifier votre nom et numero.</p>";
         } 
     }
+
+
     ?>
 
 </body>

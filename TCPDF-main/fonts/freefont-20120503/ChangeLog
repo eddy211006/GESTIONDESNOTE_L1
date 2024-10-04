@@ -1379,11 +1379,11 @@
 
 	* FreeSerif.sfd: Tamil: Toward resolution of bug
 	  #35479: Tamil in FreeSerif: some ligatures wrong
-	  https://savannah.gnu.org/bugs/index.php?35479 Removed GSUB tables
+	  https://savannah.gnu.org/bugs/home.php?35479 Removed GSUB tables
 	  about positioning the virama; implemented this with a GPOS table
 	  and anchor points. Corrected tables for sshri, kss ligatures.
 	  Toward resolution of bug #35480: Tamil in FreeSerif: placement of
-	  vowel marks poor https://savannah.gnu.org/bugs/index.php?35480
+	  vowel marks poor https://savannah.gnu.org/bugs/home.php?35480
 	  Made a vertical ii sign, made a contextual chain that replaces
 	  the normal ii with this one for certain letters.
 
@@ -2529,7 +2529,7 @@
 	  extremely wide and hard to accommodate. Made less steep, at
 	  slightly different angles, following advice at
 	  http://typophile.com/node/78623
-	  http://diacritics.typo.cz/index.php?id=24
+	  http://diacritics.typo.cz/home.php?id=24
 
 2011-10-29 18:53 +0000 [r1847]  Stevan_White:
 
@@ -3024,7 +3024,7 @@
 	  FreeSansBoldOblique.sfd,
 	  FreeSerifBold.sfd: Basic Latin: emboldened
 	  commercial at sign, to remedy bug #23574: Serif Bold: some
-	  symbols not bold https://savannah.gnu.org/bugs/index.php?23574
+	  symbols not bold https://savannah.gnu.org/bugs/home.php?23574
 
 2011-09-30 18:59 +0000 [r1765]  Stevan_White:
 
@@ -3033,7 +3033,7 @@
 	  FreeSansOblique.sfd,
 	  FreeSerif.sfd: Bengali: made a Ganda mark, to
 	  remedy bug #33983: Bengali Ganda mark is missing
-	  https://savannah.gnu.org/bugs/index.php?33983
+	  https://savannah.gnu.org/bugs/home.php?33983
 
 2011-09-30 18:17 +0000 [r1764]  Stevan_White:
 
@@ -3529,7 +3529,7 @@
 
 	* FreeSans.sfd: Osmanya: resolves bug #34155:
 	  FreeSans: Osmanya digits shifted two code positions
-	  https://savannah.gnu.org/bugs/index.php?34155
+	  https://savannah.gnu.org/bugs/home.php?34155
 
 2011-08-27 20:08 +0000 [r1684]  Stevan_White:
 
@@ -5063,7 +5063,7 @@
 	  FreeSerif.sfd,
 	  FreeSerifBold.sfd: Resolves bug 30344: "Greek
 	  Final Sigma could be shortened"
-	  https://savannah.gnu.org/bugs/index.php?30344 Problem only
+	  https://savannah.gnu.org/bugs/home.php?30344 Problem only
 	  affected roman, but touched up other faces anyway.
 
 2010-05-30 16:20 +0000 [r1449]  Stevan_White:
@@ -5182,7 +5182,7 @@
 	  FreeSerifBold.sfd,
 	  FreeMonoBoldOblique.sfd: Emboldened underscore
 	  and related glyphs. Resolves issue 22999
-	  https://savannah.gnu.org/bugs/index.php?22999 Low line (005F) in
+	  https://savannah.gnu.org/bugs/home.php?22999 Low line (005F) in
 	  bold fonts do not have heavier weight
 
 2010-04-09 18:55 +0000 [r1435]  Stevan_White:
@@ -5364,7 +5364,7 @@
 	  FreeSerifBold.sfd,
 	  FreeMonoBoldOblique.sfd: Improved magic
 	  characters for FreeMono, inserted them for other faces
-	  https://savannah.gnu.org/bugs/index.php?28742
+	  https://savannah.gnu.org/bugs/home.php?28742
 
 2010-01-27 21:24 +0000 [r1417]  Stevan_White:
 
@@ -5468,7 +5468,7 @@
 	  FreeSerifBold.sfd,
 	  FreeMonoBoldOblique.sfd: Resolves bug #23049
 	  Replacement character (U+FFFD) not properly styled
-	  https://savannah.gnu.org/bugs/index.php?23049
+	  https://savannah.gnu.org/bugs/home.php?23049
 
 2009-12-27 01:47 +0000 [r1403]  Stevan_White:
 
@@ -7203,7 +7203,7 @@
 	* FreeSansOblique.sfd: Slanted small final
 	  sigma. remedies bug #24993: U+03C2 "Greek small letter final
 	  sigma" not slanted in Free Sans Oblique
-	  https://savannah.gnu.org/bugs/index.php?24993
+	  https://savannah.gnu.org/bugs/home.php?24993
 
 2008-12-07 19:30 +0000 [r1131]  Stevan_White:
 
@@ -7258,7 +7258,7 @@
 	  FreeMonoOblique.sfd,
 	  FreeMonoBoldOblique.sfd: Replaced U+0387 GREEK
 	  ANO TELEIA with top dot of colon. See bug #24987: U+0387 GREEK
-	  ANO TELEIA too low https://savannah.gnu.org/bugs/index.php?24987
+	  ANO TELEIA too low https://savannah.gnu.org/bugs/home.php?24987
 
 2008-12-02 09:25 +0000 [r1124]  Stevan_White:
 
@@ -7933,7 +7933,7 @@
 	  FB13-FB17 with lookups Also made a historical ligature ('hlig')
 	  table for u+0587. Toward bug #15183: missing characters from
 	  Armenian range (FreeSans, Bold)
-	  https://savannah.gnu.org/bugs/index.php?15183
+	  https://savannah.gnu.org/bugs/home.php?15183
 
 2008-10-27 09:17 +0000 [r1021]  Stevan_White:
 
@@ -8540,7 +8540,7 @@
 
 	* FreeSerif.sfd: Applied patch from Daniel J
 	  Remedies bug FreeSerif: Missing glyphs with palatal hook
-	  https://savannah.gnu.org/bugs/index.php?24298 Adding several
+	  https://savannah.gnu.org/bugs/home.php?24298 Adding several
 	  letters to Phoenetic Extensions range U+1D80-BF
 
 2008-09-21 11:00 +0000 [r934]  Stevan_White:
@@ -8551,7 +8551,7 @@
 	  FreeMonoBoldOblique.sfd: Made four characters
 	  U+200C-F to be zero-width Remedy to bug #23593: Mono 0-width
 	  chars: zero-width or space?
-	  https://savannah.gnu.org/bugs/index.php?23593
+	  https://savannah.gnu.org/bugs/home.php?23593
 
 2008-09-20 23:17 +0000 [r933]  Stevan_White:
 
@@ -9600,7 +9600,7 @@
 
 	* FreeSerif.sfd: Deleted Telugu range. It didn't
 	  represent a complete writing system for the language. See notes
-	  at https://savannah.gnu.org/bugs/index.php?23202 Serif: Telugu
+	  at https://savannah.gnu.org/bugs/home.php?23202 Serif: Telugu
 	  range missing many characters; many wrong
 
 2008-05-09 05:22 +0000 [r787]  Stevan_White:
@@ -9880,7 +9880,7 @@
 
 	* FreeMono.sfd: extensible parenthesis symbols
 	  weight/terminators Toward bug # 23064
-	  https://savannah.gnu.org/bugs/index.php?23064 Rounded a bunch of
+	  https://savannah.gnu.org/bugs/home.php?23064 Rounded a bunch of
 	  terminators
 
 2008-04-22 21:45 +0000 [r739]  Stevan_White:
@@ -10405,7 +10405,7 @@
 	  FreeMonoBoldOblique.sfd: More cleanup of
 	  Cyrillic ranges Completely re-did horizontal spacing of
 	  SerifItalic and SerifBoldItalic. See bug #17912, poor kerning in
-	  Cyrillic oblique... https://savannah.gnu.org/bugs/index.php?17912
+	  Cyrillic oblique... https://savannah.gnu.org/bugs/home.php?17912
 	  It looked like chaos to me. Only so much can be done: the font is
 	  flawed. But I think the changes make text readable in these
 	  faces. There were many dozens of incorrect glyphs in
@@ -10707,7 +10707,7 @@
 	  Bold Several characters in U+F600 Corporate Use range dotlessj,
 	  onefitted, commaaccent dotlessj referred to by: jcircumflex,
 	  uni01F0: how to move it? (renamed it to uFFFF, re-linked others
-	  by hand) commaaccent http://diacritics.typo.cz/index.php?id=9
+	  by hand) commaaccent http://diacritics.typo.cz/home.php?id=9
 	  should be u+0326 but wasn't linked to anything anyway
 
 2008-03-21 15:01 +0000 [r628]  Stevan_White:
@@ -11419,7 +11419,7 @@
 	  been used as a guide, slightly modified to make the front layer.
 	  Sometimes it was just a mistake. This remedies bug #22381: Some
 	  characters have "ghost" glyphs in back layer
-	  https://savannah.gnu.org/bugs/index.php?22381 However, this is
+	  https://savannah.gnu.org/bugs/home.php?22381 However, this is
 	  bound to happen again. It would be good to have a script that
 	  checks, or maybe a facility in FontForge's "Find Problems".
 
@@ -11428,7 +11428,7 @@
 	* FreeSerif.sfd: Arabic now seems to be working,
 	  in a limited way, for display of modern text. Remedy for: bug
 	  #22329: Arabic not really working
-	  https://savannah.gnu.org/bugs/index.php?22329 * Drew several
+	  https://savannah.gnu.org/bugs/home.php?22329 * Drew several
 	  glyphs for special forms of yeh * Drew sukun combining
 	  diacritical * Made some diacritical combining marks to be
 	  properly zero width. * Added 'init' 'medi' 'fina' tables to
@@ -11596,7 +11596,7 @@
 	  FreeMonoBoldOblique.sfd: Moved capital Greeek
 	  letters with tonos so tonos doesn't cover preceding letter
 	  Partial remedy for bug #12798: some combined Greek characters
-	  have a bug https://savannah.gnu.org/bugs/index.php?12798 Only
+	  have a bug https://savannah.gnu.org/bugs/home.php?12798 Only
 	  deals with range 0380 - 03df (Greek). More needs to be done in
 	  Greek Extended range.
 
@@ -11615,7 +11615,7 @@
 	  FreeMonoBoldOblique.sfd: Made Greek 'tonos' to
 	  be the same as combining accent acute Remedy for bug #12821:
 	  FreeSerif has Greek tonos different than Greek acute
-	  https://savannah.gnu.org/bugs/index.php?12821 In some cases, just
+	  https://savannah.gnu.org/bugs/home.php?12821 In some cases, just
 	  made a reference to U+0301 (combining accent acute) of U+0384
 	  (Greek tonos). The characters that used tonos were linked to
 	  that. In many cases, this cause spacing problems, which were also
@@ -11636,7 +11636,7 @@
 	  quotes of U2018 - U201F in monospace fonts (removed incorrect
 	  reference in some straight quotes U2033... Remedies bug #18300:
 	  FreeMono has the wrong quote marks â (U+2018) and â (U+201C)
-	  https://savannah.gnu.org/bugs/index.php?18300
+	  https://savannah.gnu.org/bugs/home.php?18300
 
 2008-02-19 23:17 +0000 [r503]  Stevan_White:
 
@@ -11655,7 +11655,7 @@
 	  lots more horizontal ones. Changes also impacted vulgar
 	  fractions, so had to fix those too. bug #17756: possible printing
 	  problem with vulgar fractions. . . .
-	  https://savannah.gnu.org/bugs/index.php?17756 I think this was a
+	  https://savannah.gnu.org/bugs/home.php?17756 I think this was a
 	  case of front and back layers inadvertently both having glyphs in
 	  them. Removed the ones I found, and tidied up all vulgar
 	  fractions
@@ -11689,7 +11689,7 @@
 	  of Cyrillic Ðž (U+0438) to be even with other similar glyphs
 	  (e.g. U+043D) Remedies bug #22289: The Cyrillic Ðž letter in
 	  FreeSerif isn't high enough
-	  https://savannah.gnu.org/bugs/index.php?22289
+	  https://savannah.gnu.org/bugs/home.php?22289
 
 2008-02-18 08:18 +0000 [r499]  Stevan_White:
 
@@ -11697,7 +11697,7 @@
 	  FreeSerif.sfd: Made U+30FB, KATAKANA MIDDLE
 	  DOT to be same width as other Katakana. Remedies bug #18326: ã»
 	  (U+30FB, KATAKANA MIDDLE DOT) should be fullwidth
-	  https://savannah.gnu.org/bugs/index.php?18326
+	  https://savannah.gnu.org/bugs/home.php?18326
 
 2008-02-18 08:02 +0000 [r498]  Stevan_White:
 
@@ -11729,14 +11729,14 @@
 
 	* FreeSans.sfd: Offset Hiragana and Katakana
 	  ranges of FreeSans as in
-	  https://savannah.gnu.org/bugs/index.php?22326
+	  https://savannah.gnu.org/bugs/home.php?22326
 
 2008-02-17 23:34 +0000 [r495]  Stevan_White:
 
 	* FreeSerif.sfd,
 	  FreeSerifBold.sfd: Corrected vertical offset
 	  of Hiragana and Katakana, cf
-	  https://savannah.gnu.org/bugs/index.php?22326 (with advice from
+	  https://savannah.gnu.org/bugs/home.php?22326 (with advice from
 	  Kenshi Muto)
 
 2008-02-17 23:26 +0000 [r494]  Stevan_White:

@@ -28,13 +28,15 @@ if (isset($_POST['course_id'])) {
     $course = $stmt->fetch(PDO::FETCH_ASSOC);
     $course_name = $course['name']; // Nom du cours sélectionné
 
-    // Requête SQL pour récupérer les notes des étudiants pour le cours sélectionné
+    // Requête SQL pour récupérer les notes des étudiants, leur ID et leur numéro d'inscription pour le cours sélectionné
+    // Tri par ID de l'étudiant en ordre décroissant
     $sql = "
-        SELECT students.name, grades.grade
+        SELECT students.id AS student_id, students.name, students.student_number, grades.grade
         FROM students
         JOIN grades ON students.id = grades.student_id
         JOIN courses ON grades.course_id = courses.id
         WHERE courses.id = :course_id
+        ORDER BY students.id ASC
     ";
 
     $stmt = $pdo->prepare($sql);
@@ -74,9 +76,9 @@ if (isset($_POST['course_id'])) {
     </style>
 </head>
 <body>
-<img src="logo.png" alt="Logo" class="logo">
+<a href="home.php" alt="Logo" class="logo"><img src="logo.png" alt="Logo" class="logo"></a>
 
-<?php include 'navbar.php'; ?>
+<?php include 'navconsultermat.php'; ?>
     <h1 class="textrech">Rechercher les notes des étudiants par matière</h1>
 
     <!-- Formulaire pour sélectionner la matière -->
@@ -97,14 +99,18 @@ if (isset($_POST['course_id'])) {
         <table border="1">
             <thead>
                 <tr>
+                    <th>ID de l'étudiant</th>
                     <th>Nom de l'étudiant</th>
+                    <th>Numéro d'inscription</th>
                     <th>Note</th>
                 </tr>
             </thead>
             <tbody>
                 <?php foreach ($results as $row): ?>
                     <tr>
+                        <td><?= htmlspecialchars($row['student_id']) ?></td>
                         <td><?= htmlspecialchars($row['name']) ?></td>
+                        <td><?= htmlspecialchars($row['student_number']) ?></td>
                         <td><?= htmlspecialchars($row['grade']) ?></td>
                     </tr>
                 <?php endforeach; ?>

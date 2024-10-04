@@ -22,6 +22,7 @@ h1, h2, h3, h4 {
     text-align: left; /* Aligne le texte à gauche */
     margin-left: 52px;
     margin-top:23%;
+    width: 100%;
 }
 
 .suivre {
@@ -93,3 +94,8 @@ h1, h2, h3, h4 {
     src: url('fonts/Raleway-Black.ttf') format('truetype');
 }
 
+.perf{
+width: auto;
+height: 400px;
+margin:auto;
+}
