@@ -79,7 +79,7 @@ if (isset($_POST['course_id'])) {
 <a href="home.php" alt="Logo" class="logo"><img src="logo.png" alt="Logo" class="logo"></a>
 
 <?php include 'navconsultermat.php'; ?>
-    <h1 class="textrech">Rechercher les notes des étudiants par matière</h1>
+    <h1 class="textrech">Consulter les Notes Académiques par cours</h1>
 
     <!-- Formulaire pour sélectionner la matière -->
     <form method="post" action="" class="consulter">

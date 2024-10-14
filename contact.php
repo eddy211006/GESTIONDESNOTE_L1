@@ -107,7 +107,7 @@
             <p><strong>Nom :</strong>SOLOFONJAZATIANA </p>
             <p><strong>Prénom :</strong>Fagnitsy Gilbert </p>
             <p><strong>Classe :</strong> ENI L1 PRO GROUPE 1 2023-2024</p>
-            <p><strong>Numero :</strong></p>
+            <p><strong>Numero :</strong>3078</p>
             <p><strong>Facebook :</strong>  Gilbert Njaka</p>
             <p><strong>Email :</strong> solofogilbert13@gmail.com</p>
         </div>

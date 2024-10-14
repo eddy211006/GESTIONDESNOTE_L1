@@ -70,7 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['student_name']) && iss
             margin: 20px 0;
         }
         .form-container {
-            margin: 20px auto;
+            margin: 50px auto;
         }
         .button {
             background-color: #7ed957;
@@ -113,7 +113,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['student_name']) && iss
             margin: 10px;
             cursor: pointer;
             border-radius: 8px;
-            height: 45px;
+            height: 48px;
+            
         }
         button:hover {
             background-color: #45a049;
@@ -155,7 +156,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['student_name']) && iss
 <form method="POST" action="" class="form-container">
         <input type="text" name="student_name" placeholder="Nom de l'étudiant"  id="student_name" required class="nom">
         <input type="text" name="student_number" placeholder="Numéro de l'étudiant" required class="num">
-        <button type="submit" class="button">Générer PDF</button>
+        <button type="submit" class="button">Afficher les Statistiques</button>
 </form>
 
 <?php if ($error_message): ?>

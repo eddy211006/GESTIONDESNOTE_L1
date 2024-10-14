@@ -82,6 +82,7 @@
 
 <ul class="snip1226" id="menu">
     <li><a href="home.php" data-hover="Accueil">Accueil</a></li>
+    <li><a href="login.php" data-hover="Ajouter">ajouter</a></li>
     <li><a href="consulter.php" data-hover="Consulter par etudiant">Consulter par etudiant</a></li>
     <li><a href="consulterParCOURS.php" data-hover="Consulter par cours">Consulter par cours</a></li>
     <li><a href="generer.php" data-hover="Generer en PDF">Generer en PDF</a></li>

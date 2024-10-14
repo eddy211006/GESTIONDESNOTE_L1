@@ -11,7 +11,6 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -58,7 +57,21 @@ CREATE TABLE `students` (
   `student_number` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+-- --------------------------------------------------------
+
 --
+-- Structure de la table `professors`
+--
+
+CREATE TABLE `professors` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `auth_code` varchar(50) NOT NULL DEFAULT 'PROF2024@ENI'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- 
 -- Index pour les tables déchargées
 --
 
@@ -85,6 +98,13 @@ ALTER TABLE `students`
   ADD UNIQUE KEY `student_number` (`student_number`);
 
 --
+-- Index pour la table `professors`
+--
+ALTER TABLE `professors`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `email` (`email`);
+
+-- 
 -- AUTO_INCREMENT pour les tables déchargées
 --
 
@@ -107,6 +127,12 @@ ALTER TABLE `students`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT pour la table `professors`
+--
+ALTER TABLE `professors`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- Contraintes pour les tables déchargées
 --
 
@@ -116,6 +142,7 @@ ALTER TABLE `students`
 ALTER TABLE `grades`
   ADD CONSTRAINT `grades_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `students` (`id`),
   ADD CONSTRAINT `grades_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`);
+
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

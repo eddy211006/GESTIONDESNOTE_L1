@@ -33,7 +33,7 @@
     <!-- Fichier: navbar.php -->
     <?php include 'navconsulter.php'; ?>
 
-    <h1 class="textcons">Consulter les Notes Académiques</h1>
+    <h1 class="textcons">Consulter les Notes Académiques par Etudiant</h1>
 
     <!-- Formulaire de recherche d'étudiant -->
    

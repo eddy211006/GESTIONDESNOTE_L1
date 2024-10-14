@@ -82,11 +82,12 @@
 
 <ul class="snip1226" id="menu">
     <li ><a href="home.php" data-hover="Accueil">Accueil</a></li>
+    <li  ><a href="login.php" data-hover="Ajouter">Ajouter</a></li>
     <li><a href="consulter.php" data-hover="Consulter par etudiant">Consulter par etudiant</a></li>
     <li><a href="consulterParCOURS.php" data-hover="Consulter par cours">Consulter par cours</a></li>
     <li><a href="generer.php" data-hover="Generer en PDF">Generer en PDF</a></li>
     <li><a href="statistique.php" data-hover="Statistique des notes">Statistique des notes</a></li>
-    <li  class="current"><a href="apropos.php" data-hover="A propos">A propos</a></li>
+    <li class="current" ><a href="apropos.php" data-hover="A propos">A propos</a></li>
     <li><a href="contact.php" data-hover="Contact">Contact</a></li>
     
 </ul>

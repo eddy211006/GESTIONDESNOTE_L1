@@ -1,0 +1,152 @@
+body {
+    background-color: #000; /* Couleur de fond noire */
+    color: #ffffff; /* Couleur du texte vert */
+    font-family: 'Raleway', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 101vh;
+    margin: 0;
+  
+  
+}
+
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #222; /* Fond du formulaire */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.5s; /* Animation d'apparition */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 94%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #333; /* Couleur de fond des champs */
+    color: #fff; /* Couleur du texte des champs */
+}
+
+button {
+    background-color: #7ed957; /* Couleur du bouton */
+    color: #000; /* Couleur du texte du bouton */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #6ebc4a; /* Couleur du bouton au survol */
+}
+
+p {
+    margin-top: 15px;
+}
+
+a {
+    color: #7ed957; /* Couleur du lien */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+a:hover {
+    text-decoration: underline; /* Soulignement au survol */
+}
+
+/* Animation d'apparition */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.logo {
+    width: 140px; /* Adjust the width to make it smaller */
+    height: auto; /* Keep the aspect ratio intact */
+    position: absolute; /* Fixes the image to the top-left corner */
+    top: 0.4%; /* Adjusts the vertical position from the top */
+    left: 5%; /* Adjusts the horizontal position from the left */
+    z-index: 1000; /* Ensures the logo is on top of other elements */
+ 
+    
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('fonts/BarlowCondensed-Italic.ttf') format('truetype'); /* Assurez-vous que le nom du fichier est correct */
+    /* Vous pouvez également ajouter d'autres formats si nécessaire */
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('fonts/BarlowCondensed-Bold.ttf') format('truetype');
+}
+
+
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('fonts/Raleway-Thin.ttf') format('truetype'); /* Assurez-vous que le nom du fichier est correct */
+    /* Vous pouvez également ajouter d'autres formats si nécessaire */
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('fonts/Raleway-Black.ttf') format('truetype');
+}
+
+
+
+    #error-message {
+        color: red; /* Texte en rouge */
+        opacity: 1; /* Le texte est visible à 100% */
+        transition: opacity 2s ease; /* Transition douce pour disparaître */
+    }
+
+    #error-message.fade-out {
+        opacity: 0; /* Faire disparaître le texte en changeant l'opacité à 0 */
+    }
+
+    
+    #succes-message {
+        color: green; /* Texte en rouge */
+        opacity: 1; /* Le texte est visible à 100% */
+        transition: opacity 2s ease; /* Transition douce pour disparaître */
+    }
+
+    #succes-message.fade-out {
+        opacity: 0; /* Faire disparaître le texte en changeant l'opacité à 0 */
+    }

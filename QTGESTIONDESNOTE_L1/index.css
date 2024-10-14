@@ -1,0 +1,200 @@
+body{
+    background-color: black;
+    color: #f3f3f3;
+    font-family: 'Raleway', Arial, sans-serif;
+    height: 100vh;
+}
+.container{
+    background-color: #ddd;
+     
+    max-width: 800px; /* Exemple de largeur maximale */
+    margin: -27% 38%;
+    color: black;
+    border: 5;
+    height: 75vh;
+    border-radius: 6px;
+    text-align: center;
+    overflow-x: auto;
+    display: block;
+    overflow-Y: auto;
+
+    width: 100%; /* Conteneur parent pour avoir une largeur totale */
+    max-width: 800px; 
+
+    padding: 20px;
+    
+   
+
+}
+table{
+    
+  width: auto;/* Full width */
+    margin: 0 auto; /* Center align */
+    border-collapse: collapse; /* Removes default cell spacing */
+  
+
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px; /* Space inside cells */
+    text-align: left; /* Align text left in cells */
+    width: auto;
+  
+      
+      
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light grey background for even rows */
+    width: auto;
+  }
+th {
+    background-color: #7ed957; /* Custom color */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  tr:hover {
+    background-color: #ddd; /* Light gray background on hover */
+  }
+.table-container {
+    overflow-x: auto;
+    width: auto;
+  }
+  
+table {
+    width: auto;
+    display: block; /* Allows scrolling on small screens */
+  }
+td:nth-child(2), th:nth-child(2) {
+    text-align: center;
+    width: auto;
+  }
+  
+  td {
+    white-space: nowrap;
+    width: auto;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #333; /* Texte en vert (#7ed957) */
+    width: auto;
+}
+
+
+input{
+  width: 240px;
+
+  margin: 10px;
+  border-radius:3px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding: 5px;
+  outline: none;
+  color: wheat;
+}
+
+form{
+  width: 40vh;
+  left: 120px ;
+  top: 220px;
+  position: relative;
+}
+.rec{
+  left: 245px ;
+  top: -9px;
+  position: relative;
+}
+.rein{
+text-decoration-line: none;
+color: #000000;
+}
+
+.ajouter{
+  width: 240px;
+    height: 42px;
+    padding: 5px;
+    transition: transform 0.2s ease; /* Animation douce lors du hover */
+    background-color: #7ed957; /* Couleur du bouton */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    color: white; /* Couleur du texte */
+    font-size: 16px; /* Taille du texte */
+    cursor: pointer; /* Change le curseur en main */
+    margin: 20px;
+}
+
+.ajouter:hover {
+  transform: scale(1.1); /* Agrandit le bouton de 10% lors du hover */
+  background-color: #45a049;
+}
+
+.sel{
+  left: 145px ;
+  top: 15px;
+  position: relative;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/BarlowCondensed-Italic.ttf') format('truetype'); /* Assurez-vous que le nom du fichier est correct */
+  /* Vous pouvez également ajouter d'autres formats si nécessaire */
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/BarlowCondensed-Bold.ttf') format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/Raleway-Thin.ttf') format('truetype'); /* Assurez-vous que le nom du fichier est correct */
+  /* Vous pouvez également ajouter d'autres formats si nécessaire */
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/Raleway-Black.ttf') format('truetype');
+}
+
+
+
+.logo {
+  width: 140px; /* Adjust the width to make it smaller */
+  height: auto; /* Keep the aspect ratio intact */
+  position: absolute; /* Fixes the image to the top-left corner */
+  top: 0.4%; /* Adjusts the vertical position from the top */
+  left: 5%; /* Adjusts the horizontal position from the left */
+  z-index: 1000; /* Ensures the logo is on top of other elements */
+
+  
+}
+
+.nom{
+ width: auto;
+}
+.num{
+width: 100px;
+}

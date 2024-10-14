@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>À propos de ce site</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
+    <link rel="stylesheet" href="">
     <style>
-        body {
+         body {
             font-family: 'Raleway', sans-serif;
             background-color: #000000; /* Fond noir */
             color: #ffffff; /* Texte en blanc */
@@ -31,10 +31,10 @@
         }
 
         p, ul, li {
-            line-height: 1.6;
+           
             margin-bottom: 15px;
             color: #ffffff; /* Texte en blanc */
-        }
+        } 
 
         ul {
             list-style-type: disc;
@@ -90,6 +90,8 @@
     font-display: swap;
     src: url('fonts/BarlowCondensed-Bold.ttf') format('truetype');
 }
+
+
 
     </style>
 </head>
